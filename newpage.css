@@ -1,4 +1,8 @@
-body{background-color:orange;
+body{background-image:url(31196.jpg);
+  background-repeat: no-repeat;
+background-size:cover;
+background-position: center center;
+background-attachment: fixed;
 
 
 
@@ -77,11 +81,20 @@ body{background-color:orange;
    text-align:center;
    position:relative;
    top:20px;
+   opacity:0.5;
    font-family:courier;
    font-size:40px;
    }
  .dv4:hover{background-color:
             }
+
+  a:link{text-decoration:none;
+     color:black;}
+  a:visited{text-decoration:none;
+    color:black;}
+  a:hover{text-decoration:none;}
+  a:active{text-decoration:none;}
+
  .dv5
   { width:250px;
     padding:;
