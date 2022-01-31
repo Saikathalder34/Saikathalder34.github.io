@@ -1,0 +1,104 @@
+#container {
+  width: 300px;
+  height: 600px;
+  background-color: burlywood;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px -6px #495b78;
+}
+#keyboard {
+  width: 300px;
+  height: 400px;
+}
+#output {
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: seashell;
+}
+#history {
+  height: 40px;
+  padding-top: 20px;
+  margin: 20px;
+  text-align: right;
+
+  color: slategray;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+#result {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.empty,
+.numbers,
+.operator {
+  width: 60px;
+  height: 60px;
+  margin: 10px 7px;
+  float: left;
+  border: none;
+  font-size: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: bold;
+}
+.numbers {
+  border-radius: 30px;
+  box-shadow: 0 10px 15px -6px #495b78;
+}
+.operator {
+  border-radius: 30px;
+  box-shadow: 0 10px 15px -6px #495b78;
+}
+.numbers:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 15px white;
+}
+.operator:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 7px white;
+}
+
+.numbers {
+  background-color: rgb(14, 67, 77);
+  color: cornsilk;
+}
+.empty {
+  background-color: burlywood;
+}
+button:nth-child(4) {
+  background-color: rgb(146, 247, 247);
+}
+button:nth-child(8) {
+  background-color: rgb(248, 232, 12);
+}
+button:nth-child(12) {
+  background-color: pink;
+}
+button:nth-child(16) {
+  background-color: orangered;
+}
+button:nth-child(20) {
+  background-color: rgb(230, 41, 104);
+}
+.contact {
+  margin: 10px 40px;
+  width: 220px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  box-shadow: 0 10px 15px -6px #495b78;
+  color: whitesmoke;
+}
+.contact:hover {
+  border: 1px solid white;
+  box-shadow: 0 0 20px white;
+  background-color: white;
+  color: black;
+  display: inline;
+}

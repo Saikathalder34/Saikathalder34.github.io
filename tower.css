@@ -1,0 +1,113 @@
+#overall {
+  background-color: gainsboro;
+  width: 900px;
+  height: 700px;
+  margin: auto auto;
+}
+.tower {
+  width: 20px;
+  height: 404px;
+  background-color: black;
+  float: left;
+  margin: 140px;
+  border-top: none;
+  border-radius: 8px 8px 0px 0px;
+}
+.plate {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+#plate1 {
+  width: 60px;
+  height: 20px;
+  background-color: gold;
+
+  position: relative;
+  left: 120px;
+  top: 390px;
+}
+#plate2 {
+  width: 80px;
+  height: 20px;
+  background-color: rgb(238, 76, 76);
+  position: relative;
+  left: 110px;
+  top: 390px;
+}
+#plate3 {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(93, 230, 223);
+  position: relative;
+  left: 100px;
+  top: 390px;
+}
+#plate4 {
+  width: 120px;
+  height: 20px;
+  background-color: rgb(231, 74, 231);
+  position: relative;
+  left: 90px;
+  top: 390px;
+}
+#plate5 {
+  width: 140px;
+  height: 20px;
+  background-color: rgb(221, 146, 25);
+  position: relative;
+  left: 80px;
+  top: 390px;
+}
+#plate6 {
+  width: 160px;
+  height: 20px;
+  background-color: rgb(16, 94, 94);
+  position: relative;
+  left: 70px;
+  top: 390px;
+}
+#plate7 {
+  width: 180px;
+  height: 20px;
+  background-color: rgba(74, 255, 2, 1);
+  position: relative;
+  left: 60px;
+  top: 390px;
+}
+#timer {
+  width: 280px;
+  height: 40px;
+  background-color: orange;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+  position: relative;
+  top: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  box-shadow: 0 10px 15px -6px #c0601f;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#but {
+  width: 100px;
+  height: 50px;
+  background-color: palegreen;
+  position: relative;
+  margin: auto;
+  top: 30px;
+
+  font-family: "Lucida Console", "Courier New", monospace;
+  box-shadow: 0 10px 15px -6px #3e4637;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+  display: block;
+}
+#but:hover {
+  border: 1px solid rgb(159, 233, 21);
+  box-shadow: 0 0 15px rgb(36, 28, 28);
+}

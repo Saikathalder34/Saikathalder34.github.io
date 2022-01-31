@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" type="text/css" href="calc.css" />
+</head>
+<body>
+<div id="container">  
+
+    <div id="output">
+        <div id="history">History</div>
+        <div id="result">type here</div>
+    </div>
+    <div id="keyboard">
+    <button class="operator" id="ce" onclick="clearall()" >CE</button>
+    <button class="operator" id="c" onclick="clearrecent()">C</button>
+    <button class="operator" id="%" onclick="on_off()">ON</button>
+    <button class="operator" id="/" onclick="printoperator('/')">/</button>
+    <button class="numbers" id="1" onclick="printnumber(1)">1</button>
+    <button class="numbers" id="2" onclick="printnumber(2)">2</button>
+    <button class="numbers" id="3" onclick="printnumber(3)">3</button>
+    <button class="operator" id="+" onclick="printoperator('+')">+</button>
+    <button class="numbers" id="4" onclick="printnumber(4)">4</button>
+    <button class="numbers" id="5" onclick="printnumber(5)">5</button>
+    <button class="numbers" id="6" onclick="printnumber(6)">6</button>
+    <button class="operator" id="-" onclick="printoperator('-')">-</button>
+    <button class="numbers" id="7" onclick="printnumber(7)">7</button>
+    <button class="numbers" id="8" onclick="printnumber(8)">8</button>
+    <button class="numbers" id="9" onclick="printnumber(9)">9</button>
+    <button class="operator" id="x" onclick="printoperator('x')">x</button>
+    <button class="empty" id="bl1"></button>
+    <button class="numbers" id="0" onclick="printnumber(0)">0</button>
+    <button class="empty" id="bl2"></button>
+    <button class="operator" id="=" onclick="eva()">=</button>
+    <button class="contact" id="=" onclick="contact()">Feedback</button>
+    </div>
+    
+
+</div>
+<script type="text/javascript" src="maincalc.js"></script>
+</body>
+</html>
